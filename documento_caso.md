@@ -95,5 +95,5 @@ Resultado:
 
 Esta consulta aisló de forma directa el incidente de mayor severidad: 40 
 intentos fallidos consecutivos contra la cuenta `user07`, originados desde 
-185.220.101.45, dirección perteneciente a un rango de salida Tor documentado 
+185.220.101.45, una única dirección externa ajena a la línea base de IPs del sistema 
 públicame

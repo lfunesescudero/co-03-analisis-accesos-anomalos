@@ -9,7 +9,7 @@
   - Línea base: 30 días de actividad, 15 usuarios, horario 8-19hs, IP fija asignada por usuario
   - Patrón 1 - Acceso fuera de horario: 6 registros, madrugada (1-4hs), IP fuera del rango habitual del usuario, origen RU
   - Patrón 2 - Geolocalización no correspondiente: 5 registros, horario laboral normal, IP fuera del rango habitual, origen CN
-  - Patrón 3 - Fuerza bruta con compromiso: 41 registros contra una única cuenta (user07), origen 185.220.101.45 (rango de salida Tor documentado públicamente), 40 intentos fallidos consecutivos seguidos de acceso exitoso
+  - Patrón 3 - Fuerza bruta con compromiso: 41 registros contra una única cuenta (user07), origen 185.220.101.45, 40 intentos fallidos consecutivos seguidos de acceso exitoso
 
 - Criterio de diseño: proporción de ~98% tráfico legítimo frente a ~2% anómalo, para replicar relación señal-ruido real y evitar que las queries posteriores detecten patrones por volumen en lugar de por lógica de correlación
 
